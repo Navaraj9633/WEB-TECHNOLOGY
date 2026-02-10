@@ -1,0 +1,193 @@
+/* ================================
+   POWER GYM - PROFESSIONAL THEME
+   Black + Grey Premium UI
+================================ */
+
+/* ---------- Global ---------- */
+body {
+  background: #0a0a0a !important;
+  color: #f1f1f1 !important;
+  font-family: "Segoe UI", Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Improve spacing */
+.container {
+  max-width: 1100px;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: rgba(247, 244, 244, 0.95) !important;
+  border-bottom: 1px solid #222 !important;
+  backdrop-filter: blur(8px);
+}
+
+.navbar-brand {
+  color: #0f0d0d !important;
+  font-weight: 800;
+  letter-spacing: 0.8px;
+  font-size: 20px;
+}
+
+.nav-link {
+  color: #0b0202 !important;
+  font-weight: 600;
+  margin-left: 10px;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #090202 !important;
+  transform: translateY(-1px);
+}
+
+.nav-link.active {
+  color: #080202 !important;
+}
+
+/* ---------- Cards ---------- */
+.card {
+  background: linear-gradient(180deg, #141414, #0f0f0f) !important;
+  border: 1px solid #262626 !important;
+  border-radius: 18px !important;
+  overflow: hidden;
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.45) !important;
+}
+
+.card-body {
+  padding: 28px !important;
+}
+
+/* ---------- Headings ---------- */
+h2, h3, h5 {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.3px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+/* ---------- Text ---------- */
+p {
+  color: #cfcfcf !important;
+  font-size: 16px;
+}
+
+.text-muted {
+  color: #bdbdbd !important;
+}
+
+.text-white-50 {
+  color: #bdbdbd !important;
+}
+
+/* ---------- Lists ---------- */
+ul {
+  padding-left: 18px;
+}
+
+ul li {
+  color: #d6d6d6 !important;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+/* ---------- Image ---------- */
+.card-img-top {
+  height: 360px !important;
+  width: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  filter: contrast(1.05) brightness(0.9);
+}
+
+/* ---------- Buttons ---------- */
+.btn-dark {
+  background: #1b1b1b !important;
+  border: 1px solid #3a3a3a !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+  padding: 10px 18px !important;
+  border-radius: 12px !important;
+  transition: 0.25s ease-in-out;
+}
+
+.btn-dark:hover {
+  background: #2a2a2a !important;
+  border-color: #5a5a5a !important;
+  transform: translateY(-2px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.45);
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: #000000 !important;
+  border-top: 1px solid #222 !important;
+}
+
+footer h5 {
+  font-size: 18px;
+}
+
+footer p {
+  color: #bdbdbd !important;
+  margin-bottom: 8px;
+}
+
+footer a {
+  color: #bdbdbd !important;
+  text-decoration: none !important;
+  transition: 0.2s ease-in-out;
+}
+
+footer a:hover {
+  color: #ffffff !important;
+  text-decoration: underline !important;
+}
+
+/* ---------- Small improvements ---------- */
+.border-secondary {
+  border-color: #2a2a2a !important;
+}
+
+/* Make form labels bright so they are clearly visible */
+.form-label {
+  color: #f5f5f5 !important;   /* bright white */
+  font-weight: 600;
+}
+
+/* Make placeholder text slightly grey */
+.form-control::placeholder {
+  color: #bdbdbd !important;
+}
+
+/* Input text color */
+.form-control, .form-select {
+  color: #ffffff !important;
+  background-color: #1c1c1c !important;
+  border: 1px solid #444 !important;
+}
+
+/* Input focus effect */
+.form-control:focus, .form-select:focus {
+  border-color: #888 !important;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.1) !important;
+}
+/* Make Join Power Gym heading bright */
+.card h4 {
+  color: #ffffff !important;
+}
+/* Stylish heading color */
+.card h4 {
+  color: #e0e0e0 !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>IRON DENT GYM</title>
+  <title>Contact - IRON DENT GYM</title>
 
   <!-- Bootstrap CSS -->
   <link
@@ -21,7 +21,6 @@
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container">
 
-      <!-- Logo + Name -->
       <a class="navbar-brand fw-bold d-flex align-items-center gap-2" href="index.html">
         <img src="muscle.png" alt="Power Gym Logo" width="35" height="35">
         IRON DENT GYM
@@ -37,7 +36,7 @@
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
           <li class="nav-item">
-            <a class="nav-link active" href="index.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
 
           <li class="nav-item">
@@ -49,7 +48,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+            <a class="nav-link active" href="contact.html">Contact</a>
           </li>
 
         </ul>
@@ -61,34 +60,76 @@
   <!-- Main Content -->
   <div class="container mt-4">
 
-    <!-- Hero Card -->
-    <div class="card shadow-sm border-0">
-      <img
-        src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg"
-        class="card-img-top"
-        alt="Gym Banner"
-        style="height: 350px; object-fit: cover;"
-      />
-
+    <!-- Heading -->
+    <div class="card shadow-sm border-0 mb-4">
       <div class="card-body p-4">
-        <h2 class="fw-bold">Welcome to IRON DENT GYM 💪</h2>
-        <p class="text-muted">
-          Join our gym and transform your body with the best training programs and expert coaches.
+        <h2 class="fw-bold mb-1">📞 Contact Us</h2>
+        <p class="text-muted mb-0">
+          Fill the form below and our trainer will contact you soon.
         </p>
-        <a href="contact.html" class="btn btn-dark">Join Now</a>
       </div>
     </div>
 
-    <!-- Why Choose Us -->
+    <!-- Contact Form -->
+    <div class="row justify-content-center">
+      <div class="col-md-8 col-lg-6">
+
+        <div class="card shadow-sm border-0">
+          <div class="card-body p-4">
+
+            <h4 class="fw-bold mb-3">Join IRON DENT GYM 💪</h4>
+
+            <form>
+
+              <!-- Name -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Name</label>
+                <input type="text" class="form-control" placeholder="Enter your name" required>
+              </div>
+
+              <!-- Phone -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Phone</label>
+                <input type="text" class="form-control" placeholder="Enter your phone number" required>
+              </div>
+
+              <!-- Email -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Email</label>
+                <input type="email" class="form-control" placeholder="Enter your email" required>
+              </div>
+
+              <!-- Goal -->
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Your Goal</label>
+                <select class="form-select" required>
+                  <option value="">Select your goal</option>
+                  <option>Fat Loss</option>
+                  <option>Muscle Gain</option>
+                  <option>Fitness</option>
+                </select>
+              </div>
+
+              <!-- Submit Button -->
+              <button type="submit" class="btn btn-dark w-100">
+                Submit
+              </button>
+
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Extra Info -->
     <div class="card shadow-sm border-0 mt-4">
-      <div class="card-body p-4">
-        <h3 class="fw-bold">Why Choose Us?</h3>
-        <ul class="mt-3">
-          <li>✅ Modern equipment</li>
-          <li>✅ Expert trainers</li>
-          <li>✅ Affordable plans</li>
-          <li>✅ Friendly environment</li>
-        </ul>
+      <div class="card-body p-4 text-center">
+        <h5 class="fw-bold mb-2">📍 Location</h5>
+        <p class="text-muted mb-0">
+          Chennai, India • Open Monday - Sunday • 5 AM - 10 PM
+        </p>
       </div>
     </div>
 
@@ -109,6 +150,7 @@
         <div class="col-md-4 mb-3">
           <h5 class="fw-bold">Quick Links</h5>
           <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white text-decoration-none">Home</a></li>
             <li><a href="programs.html" class="text-white text-decoration-none">Programs</a></li>
             <li><a href="trainers.html" class="text-white text-decoration-none">Trainers</a></li>
             <li><a href="contact.html" class="text-white text-decoration-none">Contact</a></li>
@@ -117,7 +159,7 @@
 
         <div class="col-md-4 mb-3">
           <h5 class="fw-bold">Contact</h5>
-          <p class="text-white-50 mb-1">Email: irondent@gmail.com</p>
+          <p class="text-white-50 mb-1">Email: irondentgy,@gmail.com</p>
           <p class="text-white-50 mb-1">Phone: +91 98765 43210</p>
           <p class="text-white-50">Location: Chennai, India</p>
         </div>
@@ -125,7 +167,7 @@
       </div>
 
       <div class="text-center mt-3 pt-3 border-top border-secondary">
-        <p class="mb-0">&copy; 2026 Power Gym. All rights reserved.</p>
+        <p class="mb-0">&copy; 2026 IRON DENT GYM. All rights reserved.</p>
       </div>
     </div>
   </footer>
